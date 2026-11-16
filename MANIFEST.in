@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include owner_dashboard *.css
+recursive-include owner_dashboard *.csv
+recursive-include owner_dashboard *.html
+recursive-include owner_dashboard *.ico
+recursive-include owner_dashboard *.js
+recursive-include owner_dashboard *.json
+recursive-include owner_dashboard *.md
+recursive-include owner_dashboard *.png
+recursive-include owner_dashboard *.py
+recursive-include owner_dashboard *.svg
+recursive-include owner_dashboard *.txt
+recursive-exclude owner_dashboard *.pyc
